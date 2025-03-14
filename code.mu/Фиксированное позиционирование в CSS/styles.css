@@ -1,0 +1,15 @@
+#elem {
+	position: fixed; /* задаем фиксированное позиционирование */
+	top: 30px;
+	right: 30px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid green;
+}
+
+#content {
+	margin: 0 auto;
+	width: 300px;
+	text-align: justify;
+	font: 16px Arial;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Register Form</h1>
+    <form method="post">
+        <fieldset>
+            <label for="First-Name">Enter Your First Name:
+                <input id="First-Name" name="First-Name" type="text" required> 
+            </label>
+            <label for="Last-Name">Enter Your Last Name:
+                <input id="Last-Name" name="Last-Name" type="text" required>
+            </label>
+            <label for="Email">Enter Your Email
+                <input id="Email" name="Email" type="email" required>
+            </label>
+            <label for="New-Password">Create New Password
+                <input id="New-Password" name="New-Password" type="password" required>
+            </label>
+        </fieldset>
+            <label for="profile-picture">Upload a profile picture:
+                <input id="profile-picture" type="file" name="file">
+            </label>
+            <label for="age">Inpit your age
+                <input id="age" type="number" name="age" min="13" max="120">
+            </label>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

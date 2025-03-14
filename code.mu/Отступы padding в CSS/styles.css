@@ -1,0 +1,10 @@
+#elem {
+	padding-top:    10px; /* сверху */
+	padding-right:  20px; /* справа */
+	padding-bottom: 30px; /* снизу */
+	padding-left:   40px; /* слева */
+	
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+}
