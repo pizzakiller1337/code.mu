@@ -1,0 +1,65 @@
+#elem {
+    background: white;
+    border: 1px solid red;
+    width: 300px;
+    height: 100px;
+    transition: background 1s ease-out;
+}
+#elem:hover {
+    background: red;
+}
+
+#elem1 {
+    background: white;
+    border: 1px solid red;
+    color: red;
+    width: 300px;
+    height: 100px;
+    transition: all 1s ease-out;
+}
+#elem1:hover {
+    color: white;
+    background: red;
+}
+
+#elem2 {
+    border: 1px solid red;
+    width: 300px;
+    height: 100px;
+    transition: all 1s ease-out;
+}
+#elem2:hover {
+    width: 100%;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-sizing: border-box;
+    transition: all 1s ease-out;
+}
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 0 5px blue;
+    color: blue;
+    outline: none;
+}
+
+.elem {
+    width: 300px;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-sizing: border-box;
+    transition: all 1s ease-out;
+}
+.elem:focus {
+    width: 500px;
+    border: 1px solid blue;
+    color: blue;
+    outline: none;
+}

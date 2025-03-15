@@ -1,0 +1,40 @@
+#elem1 {
+	text-decoration-style: solid;
+	text-decoration-color: red;
+	text-decoration-line: line-through;
+}
+#elem2 {
+	text-decoration-style: solid;
+	text-decoration-color: blue;
+	text-decoration-line: overline;
+}
+#elem3 {
+	text-decoration-style: solid;
+	text-decoration-color: green;
+	text-decoration-line: underline;
+}
+#elem4 {
+	text-decoration-style: wavy;
+	text-decoration-color: blue;
+	text-decoration-line: underline;
+}
+#elem5 {
+	text-decoration-style: dashed;
+	text-decoration-color: red;
+	text-decoration-line: underline;
+}
+#elem6 {
+	text-decoration-style: dotted;
+	text-decoration-color: blue;
+	text-decoration-line: underline;
+}
+#elem7 {
+	text-decoration-style: double;
+	text-decoration-color: green;
+	text-decoration-line: underline;
+}
+#elem8 {
+	text-decoration-style: solid;
+	text-decoration-color: blue;
+	text-decoration-line: underline;
+}

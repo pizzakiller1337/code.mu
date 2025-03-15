@@ -1,0 +1,11 @@
+#elem {
+	background: repeating-radial-gradient(circle at center, red 0px, red 2px, white 2px, white 4px);
+	width: 400px;
+	height: 200px;
+}
+
+#elem1 {
+	background: repeating-radial-gradient(ellipse at center, red 0px, red 4px, white 4px, white 8px);
+	width: 400px;
+	height: 200px;
+}
