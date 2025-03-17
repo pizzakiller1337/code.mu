@@ -1,0 +1,19 @@
+#elem {
+	width: 200px;
+	overflow: hidden;
+	border: 1px solid red;
+}
+
+#elem1 {
+	width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border: 1px solid red;
+}
+
+#elem2 {
+	width: 200px;
+	overflow: auto;
+	text-overflow: ellipsis;
+	border: 1px solid red;
+}

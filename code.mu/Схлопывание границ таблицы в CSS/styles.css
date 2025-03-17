@@ -1,0 +1,32 @@
+.table1 table {
+	border-collapse: separate;
+	width: 400px;
+	border-spacing: 0;
+	border: 1px solid red;
+}
+.table1 td {
+	border: 1px solid red;
+	text-align: center;
+}
+
+.table2 table {
+    margin-top: 10px;
+	border-collapse: separate;
+	width: 400px;
+	border-spacing: 0;
+}
+.table2 td {
+	border: 1px solid red;
+	text-align: center;
+}
+
+.table3 table {
+    margin-top: 10px;
+	border-collapse: collapse;
+	width: 400px;
+	border: 1px solid red;
+}
+.table3 td {
+	border: 1px solid red;
+	text-align: center;
+}
